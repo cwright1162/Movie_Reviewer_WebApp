@@ -6,7 +6,7 @@ Requires the creation of a file "dbh.inc.php" to work.
 Place the file into the includes folder. Specify your database information.
 Create your own local database using the exported file provided in the MovieRevDB_Schema directory.
 
-'''
+```
 <?php
 	function openConn() {
 		$servername = "";
@@ -23,4 +23,4 @@ Create your own local database using the exported file provided in the MovieRevD
 		mysqli_close($conn);
 	}
 ?>
-'''
+```
